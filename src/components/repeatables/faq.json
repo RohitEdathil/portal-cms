@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_repeatables_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string",
+      "required": true
+    },
+    "Answer": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
