@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_repeatables_timelines",
+  "info": {
+    "displayName": "Timeline",
+    "icon": "calendar-check"
+  },
+  "options": {},
+  "attributes": {
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

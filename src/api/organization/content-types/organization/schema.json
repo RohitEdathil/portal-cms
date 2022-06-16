@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organizations",
+  "info": {
+    "singularName": "organization",
+    "pluralName": "organizations",
+    "displayName": "Organization"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Scholarships": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::scholarship.scholarship",
+      "mappedBy": "Organization"
+    }
+  }
+}

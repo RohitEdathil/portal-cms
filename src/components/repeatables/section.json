@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_sections",
+  "info": {
+    "displayName": "Section",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Collapsible": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
