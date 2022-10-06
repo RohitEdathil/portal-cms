@@ -60,6 +60,13 @@
       "type": "component",
       "repeatable": true,
       "component": "repeatables.timeline"
+    },
+    "Banner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
